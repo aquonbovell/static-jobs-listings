@@ -1,0 +1,16 @@
+{
+  "name": "static-jobs-listings",
+  "version": "1.0.0",
+  "description": "Job listings with filtering coding challenge",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
+    "build": "npx tailwindcss -i ./src/style.css -o ./src/css/style.css --minify"
+  },
+  "keywords": [],
+  "author": "Aquon Bovell",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./main.js" defer></script>
+    <title>Frontend Mentor | Job Listings</title>
+  </head>
+  <body
+    class="grid grid-cols-center grid-rows-max h-screen font-body text-base text-lg"
+  >
+    <header class="col-span-full bg-primary">
+      <picture>
+        <source
+          media="(min-width: 375px)"
+          srcset="/src/images/bg-header-desktop.svg"
+        />
+        <img
+          src="/src/images/bg-header-mobile.svg"
+          alt=""
+          class="block mx-auto"
+        />
+      </picture>
+    </header>
+    <main class="col-span-full grid grid-cols-center bg-neutral-300">
+      <div
+        class="col-start-2 col-end-3 -translate-y-6 p-6 bg-white rounded-md flex justify-between gap-2 h-min"
+      >
+        <div id="filters" class="flex flex-wrap gap-3"></div>
+        <button
+          class="clear-btn text-neutral-500 hover:text-primary focus-within:text-primary"
+        >
+          Clear
+        </button>
+      </div>
+      <div class="col-start-2 col-end-3 py-14">
+        <ul id="job-listings" class="list-none flow" role="list"></ul>
+      </div>
+    </main>
+    <footer class="col-span-full grid grid-cols-center bg-neutral-200">
+      <div class="attribution col-start-2 col-end-3 text-center">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="text-neutral-500 hover:text-primary focus-within:text-primary"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="#"
+          class="text-neutral-500 hover:text-primary focus-within:text-primary"
+          >Aquon Bovell</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
