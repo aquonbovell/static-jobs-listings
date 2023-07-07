@@ -4,7 +4,7 @@
   "description": "Job listings with filtering coding challenge",
   "main": "index.html",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
+    "dev": "npx tailwindcss -i ./src/style.css -o ./src/css/style.css --watch",
     "build": "npx tailwindcss -i ./src/style.css -o ./src/css/style.css --minify"
   },
   "keywords": [],
