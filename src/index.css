@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 .flow > * + * {
   margin-top: 2.5rem;
 }
@@ -27,7 +23,8 @@
   top: 0;
   bottom: 0;
   left: 0;
-  @apply rounded-l-md;
+  border-top-left-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
   background: hsl(180, 14%, 20%);
 }
 .job-status > *:not(:first-child) {
@@ -47,3 +44,7 @@
   background: hsl(180, 8%, 52%);
   font-weight: 100;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

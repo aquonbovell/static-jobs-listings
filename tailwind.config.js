@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{html,js,json}"],
+export default {
+  content: ["./index.html", "./**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       gridTemplateColumns: {

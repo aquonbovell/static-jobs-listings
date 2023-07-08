@@ -1,5 +1,5 @@
 const listings = document.createDocumentFragment();
-fetch("data.json").then((res) => {
+fetch("../data.json").then((res) => {
   if (res.ok) {
     res.json().then((data) => {
       let jobs = "";
